@@ -179,6 +179,7 @@ footer{
     padding: 15px;
     border-radius: 50px;
     transition: 0.3s ease;
+    margin: 0px 10px 0px 10px;
 }
 .social-icon .fab:hover{
     color: #1e1d3b;
