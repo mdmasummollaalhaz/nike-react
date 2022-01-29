@@ -45,6 +45,10 @@ p{
 .secondLine{
     display: grid;
 }
+.content{
+    padding: 0px 10px;
+    overflow: hidden;
+}
 
 /* Products */
 .products{
@@ -102,10 +106,17 @@ header{
     -webkit-backdrop-filter: blur(1rem);
     backdrop-filter: blur(1rem);
 }
+.navbar-brand img{
+    width: 300px;
+}
 
 /* ---------------------
 ** Hero
 ---------------------- */
+.hero{
+    padding-top: 120px;
+    overflow: hidden;
+}
 .heroContent{
     margin-left: 100px;
     width: 70%;
@@ -183,14 +194,35 @@ footer{
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  
+
+    main {
+        padding: 0px 10px;
+    }
+
+    /* ---------------------
+    ** Header
+    ---------------------- */
+    .navbar-brand{
+        width: 70%;
+    }
+    .navbar-brand img{
+        width: 250px;
+    }
+
     /* ---------------------
     ** Hero
     ---------------------- */
     .heroContent{
         margin-left: 0px;
-        margin-top: 5 0px;
+        margin-top: 50px;
         width: 100%;
+        padding: 0px 30px 0px 10px;
+    }
+    .hero img{
+        width: 95%;
+    }
+    .heroContent h1{
+        font-size: 60px;
     }
 
     /* Benefit */
